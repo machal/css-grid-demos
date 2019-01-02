@@ -1,0 +1,8 @@
+.container {
+  display: grid;
+}
+
+.box {
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-column-gap: .5em;
+}
