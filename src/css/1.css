@@ -4,5 +4,19 @@
 
 .box {
   grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas: "a b c";
   grid-column-gap: .5em;
 }
+
+.box-a {
+  grid-area: a;
+}
+
+.box-b {
+  grid-area: b;
+}
+
+.box-c {
+  grid-area: c;
+}
+
