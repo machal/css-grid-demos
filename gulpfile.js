@@ -13,7 +13,7 @@ gulp.task('autoprefixer', () =>
   {
     return gulp.src('src/css/*.css')
       .pipe(autoprefixer({
-        grid: true
+        grid: "autoplace"
       }))
       .pipe(gulp.dest('dist/css'));
   }

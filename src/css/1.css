@@ -1,22 +1,26 @@
-.container {
+.grid-container {
   display: grid;
-}
-
-.box {
   grid-template-columns: 1fr 3fr 1fr;
-  grid-template-areas: "a b c";
-  grid-column-gap: .5em;
+  grid-column-gap: 0.5em;
+  grid-template-areas: "a b c"
 }
 
-.box-a {
+.side-1 {
   grid-area: a;
 }
 
-.box-b {
+.content {
   grid-area: b;
 }
 
-.box-c {
+.side-2 {
   grid-area: c;
 }
 
+
+/* etc: */
+
+.grid-container > * {
+  padding: 1em;
+  background: #b3e888;
+}

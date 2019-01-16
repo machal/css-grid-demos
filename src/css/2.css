@@ -1,0 +1,13 @@
+.box {
+  padding: 1em;
+  margin: 0;
+  background: #b3e888;
+  height: 33vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-gap: 1rem;
+}
